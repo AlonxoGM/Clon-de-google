@@ -186,18 +186,21 @@ main .main-country {
 .dropdown {
     position: relative;
 }
-.dropdown-menu {
-    position:absolute;
-    right: 0;
-    top: calc(100% + .25rem);
-    background-color: #5f6368;
-    padding: .75rem;
-    border-radius: .25rem;
-    box-shadow: 0 2px 5px 0 rgb(0, 0, 0, .1);
-    opacity: 1;
-    transform: translateY(5px);
-    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
-    pointer-events: none;
+.iconsDropdown{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 10px;
+    height: 40px;
+}
+.accordion-item {
+    top: calc(100% + .55rem);
+    background-color: #202124;
+    
+}
+
+.menu {
+    
 }
 
 p {

@@ -186,12 +186,13 @@ main .main-country {
 .dropdown {
     position: relative;
 }
-.iconsDropdown{
+.dropdown-menu dropdown-menu-right{
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 10px;
     height: 40px;
+    bs-body-bg: transparent;
 }
 .accordion-item {
     top: calc(100% + .55rem);
@@ -200,7 +201,7 @@ main .main-country {
 }
 
 .menu {
-    
+
 }
 
 p {
